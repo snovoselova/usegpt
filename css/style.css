@@ -107,9 +107,15 @@ body {
 }
 
 .features li::before {
-    content: "✔";
+    content: '';
+    background-image: url('../images/list_item.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 12px;
+    height: 8.5px;
     margin-right: 8px;
-    color: #cce0ff;
 }
 
 /* Кнопка */
