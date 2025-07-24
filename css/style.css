@@ -33,7 +33,7 @@ body {
     background: #326ADB;
     color: #fff;
     border-radius: 24px 24px 0 0;
-    padding: 24px 20px 32px;
+    padding: 24px 20px 0;
     position: relative;
     z-index: 1;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .discount {
-    background: #ffffff1a;
+    background: rgba(255, 255, 255, 0.2);
     font-size: 12px;
     padding: 4px 8px;
     border-radius: 10px;
@@ -96,7 +96,7 @@ body {
 .features {
     list-style: none;
     padding-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 1.5;
     color: #cce0ff;
@@ -123,7 +123,7 @@ body {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin-left: 24px;
+  margin: 24px;
   transition: background 0.3s;
 }
 
