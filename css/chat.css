@@ -65,10 +65,6 @@ a {
     gap: 24px;
 }
 
-.logo {
-    width: 48px;
-    height: 48px;
-}
 
 .buttons {
     display: flex;
@@ -173,33 +169,12 @@ a {
     border-top: 1px solid #e2e2e2;
 }
 
-.top-controls {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 5px;
-}
 
 .chat-item {
     display: flex;
     align-items: center;
     padding: 14px 5px;
     gap: 12px;
-}
-
-.chat-item .circle {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.black-white {
-    background: black;
-    border: 2px solid white;
-}
-
-.gradient {
-    background: linear-gradient(to right, #f400a1, #bd00ff);
 }
 
 .sidebar-bottom {
@@ -220,10 +195,6 @@ a {
     gap: 4px;
 }
 
-.gear {
-    margin-right: 10px;
-    font-size: 18px;
-}
 
 .small {
     font-size: 12px;

@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #f3f3f3;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,8 @@ body {
 
 /* Карточка */
 .card {
-    width: 390px;
+    max-width: 390px;
     height: 684px;
-    border: 2px solid #e0e0e0;
-    border-radius: 8px;
-    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -120,7 +117,7 @@ body {
 
 /* Кнопка */
 .pay-button {
-  width: 342px;
+  width: 100%;
   height: 48px;
   background-color: #326ADB;
   color: white;
@@ -129,7 +126,7 @@ body {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin: 24px;
+  margin: 24px 0;
   transition: background 0.3s;
 }
 
