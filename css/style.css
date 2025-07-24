@@ -1,0 +1,133 @@
+/* Основной сброс и базовая стилизация */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Карточка */
+.card {
+    width: 390px;
+    height: 684px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Синий блок подписки */
+.card-content {
+    background: #326ADB;
+    color: #fff;
+    border-radius: 24px 24px 0 0;
+    padding: 24px 20px 32px;
+    position: relative;
+    z-index: 1;
+}
+
+/* SVG ChatGPT */
+.chatgpt-bg {
+    position: absolute;
+    width: 235px;
+    height: 217px;
+    top: 22px;
+    left: 192px;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Заголовок */
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Цены */
+.price-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.discount {
+    background: #ffffff1a;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.new-price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #c7d7f9;
+    font-size: 14px;
+}
+
+/* Экономия */
+.saving {
+    font-size: 14px;
+    color: #cce0ff;
+    margin-bottom: 16px;
+}
+
+/* Список преимуществ */
+.features {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #cce0ff;
+}
+
+.features li {
+    margin-bottom: 8px;
+}
+
+.features li::before {
+    content: "✔";
+    margin-right: 8px;
+    color: #cce0ff;
+}
+
+/* Кнопка */
+.pay-button {
+  width: 342px;
+  height: 48px;
+  background-color: #326ADB;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 24px;
+  transition: background 0.3s;
+}
+
+.pay-button:hover {
+  background-color: #2856b5;
+}
+
