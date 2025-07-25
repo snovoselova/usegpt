@@ -17,4 +17,20 @@ document.addEventListener('DOMContentLoaded', function () {
             sidebar.classList.add('hidden');
         });
     });
+
+    overlay.addEventListener('click', function () {
+        overlay.classList.add('hidden');
+        paywall.classList.add('hidden');
+        sidebar.classList.add('hidden');
+    });
+
+    sidebar.addEventListener('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    });
+
+    paywall.addEventListener('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    });
 });
