@@ -17,12 +17,12 @@ body {
     overflow: hidden;
     background-color: #fff;
     bottom: 0;
+    border-radius: 24px 24px 0 0;
 }
 
 .card-content {
     background: #326ADB;
     color: #fff;
-    border-radius: 24px 24px 0 0;
     padding: 24px 20px 0;
     position: relative;
     z-index: 1;
@@ -135,10 +135,6 @@ body {
 a {
     text-decoration: none;
     color: #000;
-}
-
-.hidden {
-    display: none;
 }
 
 .app-container {
@@ -329,4 +325,8 @@ a {
 
 .avatar {
     font-size: 18px;
+}
+
+.hidden {
+    display: none;
 }
